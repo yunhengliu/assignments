@@ -30,7 +30,6 @@ func Reduce(key string, values *list.List) string {
     v, _ := strconv.Atoi(e.Value.(string))
     res += v
   }
-  // fmt.Println(key, res)
   return strconv.Itoa(res)
 }
 
